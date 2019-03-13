@@ -11,16 +11,20 @@
 # It matches exact case and exact spelling but will suggest matches when it
 # finds matches that do not match case or exact spelling.
 #
+#-----------------------------------------------------------------------------
+# DATE         WHO                   DESCRIPTION
+# ----------   --------------------  -----------------------------------------
+# 2019-03-13   Maurice Johnson       Created
 ##############################################################################
 import json
 
-# module that matches words that don't exactly match
+# module that returns imprecise word matches
 from difflib import get_close_matches
 
 # Dictionary of words with one or more definitions
 data = json.load(open("data.json"))
 
-
+# Word match function
 def translate(w):
     w = w.lower()                     # First attempt case insensitive match
     if w in data:
