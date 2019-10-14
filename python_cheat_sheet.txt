@@ -1,0 +1,86 @@
+IMPORTANT:
+- Best to use ATOM because it is an advanced IDE and you can invoke a terminal session in a split window
+- Command line does not work in Bash
+
+INVOKE PYTHON: from any CMD line type python or python.exe (3.7.2 is installed)
+exit python ctl-z-return or exit() 
+
+HOW TO USE PYTHON COMMAND LINE
+(NOTE: command line does not work in Bash)
+- invoke cmd
+- cd to working directory
+- python.exe
+
+HOW TO EXECUTE A SCRIPT
+- Start CMD or Bash
+- cd /c/Users/johns/onedrive/git/python-mega-course-udemy  
+  cd c:/Users/johns/onedrive/git/python-mega-course-udemy
+- pythoncd  <script_name>.py
+
+USING ATOM
+- Shortcuts  https://shortcutworld.com/Atom-(text-editor)/win/Atom-(text-editor)_1.0_Shortcuts
+- display tool bar alt or alt+v 
+- Open a folder ctrl+shift_o
+- double click on the program you want to modify
+- to create a new program right click anywhere in the project folder,click <new file>, name the new file <new name>.py, press enter and start coding
+- Create a terminal pane   ctl+alt+t (terminal will occupy the entire screen - just grab it by the tab and pull to the right and will will become a spit screen)
+- execute program ctl+shift+p and type script and select run script
+  or slect Packages from toolbar then select  script and select run script
+
+
+FRAMEWORK,LIBRARIES, PACKAGES and MODULES
+
+MODULE is a file which contains python functions , global variables etc. It is nothing but .py file which has python executable code / statement. Modules and libraries are imported in the python program. dir(<module name>)
+
+LIBRARY is collection of various packages. There is no difference between package and python library conceptually. Modules and libraries are imported in the python program. "from <library name> import <module name>" 
+
+PACKAGE is a third party library that does not come installed with Python. It is a directory which contains a special file __init__.py. I.e., a Python package is a directory with modules in it. Packages are large third party worlds unto themselve and do not come installed with Python. You "pip install <package name>" on the Python command line then you import the package in the Python program. Pip will go and find the package and install it on your computer. help(<package name>)
+
+FRAMEWORK is a collection of various libraries which architects the code flow. The defining characteristic of a framework is Inversion of Control. The framework calls Python and not the other way round.
+
+- library install - pip install library 
+- module help - dir(<module name>)
+- to use a module: import <module name>' at the top of the program
+- method help - help
+(module.method)
+- List of builtin functions - dir(__builtins__)
+FUNCTIONS VS MODULES: Modules have methods and are invoked by object.<append> and functions are invoked by <invoke>(object)
+
+OOP - CLASSES
+- METHOD is a function associated with a class
+- ATRIBUTE is data associated with a class
+- INSTANCE VARIABLE is unique to each instance of a class
+- CLASS VARIABLE is common to all instances of a class
+- HELP for a specific class:  print(help(<class-name>))
+
+JUPYTER
+To launch from File Explorer - 
+- <shif><right click> and select Git Bash Here or Open Powershell Here 
+- then type "jupyter notebook"
+- select Python3 from <New> dropdown
+- clinck on <Untitled> to rename the notebook
+
+
+
+COMMANDS
+- exit   clt-Z or exit() and <return>
+
+HELP
+-To find out what attributes a type has:
+    dir(str)
+    dir(list)
+    dir(dict)
+-To find out what Python builtin functions there are:
+    dir(__builtins__)
+-Documentation for a Python command can be found with:
+    help(str)
+    help(str.replace)
+    help(dict.values)
+
+
+HELP
+- methods for lists,float,ints and strings - dir(list), dir(float), dir(int) and dir(str)
+- help(<function name>)
+
+
+
