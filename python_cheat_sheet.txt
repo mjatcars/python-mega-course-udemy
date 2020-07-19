@@ -1,6 +1,11 @@
 IMPORTANT:
 - Best to use ATOM because it is an advanced IDE and you can invoke a terminal session in a split window
-- Command line does not work in Bash
+How to use: 
+ -open a folder
+ -rightclick and choose RUN CURRENT PYTHON FILE IN TERMINAL
+ -split the terminal window and start python in the split window to have a terminal session and 
+  and a Python session
+- NOTE: Command line does not work in Bash
 
 INVOKE PYTHON: from any CMD line type python or python.exe (3.7.2 is installed)
 exit python ctl-z-return or exit() 
