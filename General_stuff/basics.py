@@ -1,4 +1,38 @@
 
+with open("data.txt", "a+") as file:
+    file.seek(0)
+    content = file.read()
+    file.seek(0)
+    file.write(content)
+    file.write(content)
+
+
+'''
+with open("bear.txt","a+") as file_object:
+    file_object.seek(0)
+    line = file_object.read()
+    file_object.seek(0)
+    file_object.write("\n" + line)
+    file_object.write("\n" + line)
+'''
+'''
+def foo(v_char,filename):
+    with open(filename) as file_object:
+        line = file_object.read()
+    return line.count(v_char)
+
+print(foo("m","fruits.txt"))
+'''
+'''
+filename = 'fruits.txt'
+with open(filename) as file_object:
+    line = file_object.read() # returns list of 'value\n'
+print(line[:6])
+
+filename = 'first.txt'
+with open(filename,"a") as file_object:
+    file_object.write( "\n" + line[:6])
+'''
 '''
 filename = 'siddhartha.txt'
 fruits=["apples","oranges","pears"]
@@ -6,6 +40,7 @@ with open(filename,"a") as file_object:
     for fruit in fruits:
         file_object.write( "\n" + fruit)
 '''
+
 '''
 filename = 'fruits.txt'
 with open(filename) as file_object:

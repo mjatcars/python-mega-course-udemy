@@ -77,6 +77,10 @@ HELP
     dir(dict)
 -To find out what Python builtin functions there are:
     dir(__builtins__)
+	     and
+	import sys
+    sys.builtin_module_names
+
 -Documentation for a Python command can be found with:
     help(str)
     help(str.replace)
@@ -86,6 +90,9 @@ HELP
 HELP
 - methods for lists,float,ints and strings - dir(list), dir(float), dir(int) and dir(str)
 - help(<function name>)
+- help 
 
-
+for additional builtin mudules
+import sys
+sys.builtin_module_names
 
