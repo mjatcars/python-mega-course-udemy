@@ -76,23 +76,34 @@ HELP
     dir(list)
     dir(dict)
 -To find out what Python builtin functions there are:
-    dir(__builtins__)
-	     and
-	import sys
-    sys.builtin_module_names
-
+    1) dir(__builtins__) "for BUILTIN modules written in C which do not have to be imported"
+	2) import sys        "for BUILTIN modules written in C which MUST be imported"
+       sys.builtin_module_names
+	3) sys.prefix        "for BUILTIN modules written in PYTHON which MUST be imported"
+	   Which will return C:\Users\johns\AppData\Local\Programs\Python\Python37
+	   go to <lib> directory where you will find more builtins written in python
 -Documentation for a Python command can be found with:
     help(str)
     help(str.replace)
     help(dict.values)
 
 
-HELP
-- methods for lists,float,ints and strings - dir(list), dir(float), dir(int) and dir(str)
-- help(<function name>)
-- help 
+For help in Jupyter, put the <command>?
 
-for additional builtin mudules
-import sys
-sys.builtin_module_names
+TROUBLESHOOTING HINTS
+Jupyter Notebook does  launches browser with blank page:
+-First cut and paste URL in Firefox or IE
+If that doesn't work:
+-launch Norton
+-log into account
+-go to Settings and uncheck all boxes
+-click on Security and hit the down arrow to minimize security and select Advanced and disable everything Until System Restart
+Now cut and paste URL in Firefox or IE 
+
+
+
+
+
+
+
 

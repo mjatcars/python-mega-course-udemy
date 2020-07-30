@@ -1,11 +1,52 @@
+with open("file1.txt") as file1:
+    contents1=file1.read()
 
+with open("file2.txt","a+") as file2:
+    file2.write(contents1)
+    file2.seek(0)
+    contents2=file2.read()
+print(contents2)
+
+
+
+'''
+newd={"a":1,"b":2,"c":3}
+
+a_dictionary = {"a": 1, "b": 2}
+for k, v in a_dictionary.items():
+    print(k,v)
+
+a_list=[1,2,3,4]
+for a in a_list:
+    print(a)
+
+a_tuple=[1,2,3,4]
+for a in a_tuple:
+    print(a)
+
+print(a_tuple[1])
+print(isinstance(('s',[1,2,3]),tuple))
+
+print("hey {} why don't you call {}?".format("Maurice","Larry"))
+'''
+
+'''
+keys_list = list(a_dictionary)
+print(keys_list)
+print(type(keys_list
+))
+a_key = keys_list[0]
+
+print(a_key)
+'''
+'''
 with open("data.txt", "a+") as file:
-    file.seek(0)
+    #file.seek(0)
     content = file.read()
     file.seek(0)
     file.write(content)
     file.write(content)
-
+'''
 
 '''
 with open("bear.txt","a+") as file_object:
@@ -240,14 +281,15 @@ mean = mysum / length
 print(mean)
 '''
 
-"""
+'''
 student_grades = [9.1,7.4,8.5]
-print(max(student_grades))
+student_grades.reverse()
+print(student_grades)
 mysum = sum(student_grades)
 length = len(student_grades)
 mean = mysum / length
 print(mean)
-"""
+'''
 
 """import datetime
 mynow = datetime.datetime.now()
