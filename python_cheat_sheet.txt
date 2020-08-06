@@ -22,20 +22,14 @@ HOW TO EXECUTE A SCRIPT
   cd c:/Users/johns/onedrive/git/python-mega-course-udemy
 - pythoncd  <script_name>.py
 
-USING ATOM
-- Shortcuts  https://shortcutworld.com/Atom-(text-editor)/win/Atom-(text-editor)_1.0_Shortcuts
-- display tool bar alt or alt+v 
-- Open a folder ctrl+shift_o
-- double click on the program you want to modify
-- to create a new program right click anywhere in the project folder,click <new file>, name the new file <new name>.py, press enter and start coding
-- Create a terminal pane   ctl+alt+t (terminal will occupy the entire screen - just grab it by the tab and pull to the right and will will become a spit screen)
-- execute program ctl+shift+p and type script and select run script
-  or slect Packages from toolbar then select  script and select run script
+MISCELLANEOUS
+- How to create a .exe file from Python .py files: pyinstaller --onefile --windowed frontend.py
 
 
 FRAMEWORK,LIBRARIES, PACKAGES and MODULES
 
 MODULE is a file which contains python functions , global variables etc. It is nothing but .py file which has python executable code / statement. Modules and libraries are imported in the python program. dir(<module name>)
+
 
 LIBRARY is collection of various packages. There is no difference between package and python library conceptually. Modules and libraries are imported in the python program. "from <library name> import <module name>" 
 
@@ -61,7 +55,7 @@ OOP - CLASSES
 JUPYTER
 To launch from File Explorer - 
 - <shif><right click> and select Git Bash Here or Open Powershell Here 
-- then type "jupyter notebook"
+- then type "py -m notebook" or "py -m -3 notebook"
 - select Python3 from <New> dropdown
 - clinck on <Untitled> to rename the notebook
 
